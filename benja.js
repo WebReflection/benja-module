@@ -23,7 +23,6 @@
 var fs = require('fs');
 
 function append(path) {
-  console.log(path);
   // if path is not already present
   if (this.indexOf(path) < 0) {
     // and it actually exists
@@ -44,7 +43,7 @@ this.paths = function paths() {
     // should be the same as '$HOME/app/node_modules'
     process.cwd() + '/node_modules',
     // to be sure it's available via process.cwd()
-    process.env.HOME + '/app/node_modules'
+    '/home/alarm/app/node_modules'
   ].concat(
     // eventually defined by BenjaOS
     (process.env.NODE_PATH || '').split(':').filter(stringValue)
