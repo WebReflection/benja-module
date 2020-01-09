@@ -23,6 +23,7 @@
 var fs = require('fs');
 
 function append(path) {
+  console.log(path);
   // if path is not already present
   if (this.indexOf(path) < 0) {
     // and it actually exists

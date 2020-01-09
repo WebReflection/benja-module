@@ -1,6 +1,6 @@
 # Benja OS Helper
 Used mostly to fix a well-known Electron limitation with `NODE_PATH` env variable,
-this module is needed to fix firther `require(module)` down your app.
+this module is needed to fix further `require(module)` down your app.
 
 It can be used in both backend and frontend files.
 Install it locally via `npm install benja` and after that:
@@ -11,4 +11,4 @@ Install it locally via `npm install benja` and after that:
 require(process.cwd() + '/node_modules/benja').paths();
 ```
 
-Visit [Benja OS](https://benja.io/) site to know more.
+Visit [Benja OS](https://archibold.io/benja/) site to know more about BENJA.
