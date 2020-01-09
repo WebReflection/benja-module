@@ -1,6 +1,6 @@
 {
   "name": "benja",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Bootable Electron Node JS Application helper.",
   "main": "./benja.js",
   "scripts": {
